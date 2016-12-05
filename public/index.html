@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<meta content="initial-scale=1.0" name="viewport">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/lodash/4.17.1/lodash.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="dark-style.css">
+        <link rel="shortcut icon" href="img/logo.png" style="width: 16px; height: 16px">
+
+		<title>Spotify Tags&Rates Management</title>
+	</head>
+	<body onload="startApp(); doit(); iphone();">
+
+        <!-- "Page" to show when not logged in -->
+		<div id="login">
+            <div id="header">
+                <img src="img/Spotify_logo.png">
+            </div>
+
+			<p>
+				<button id="start" class="btn">Log in</button>
+			</p>
+
+            <div id="footer">
+                <p>CS 349 Assignment 3. Created by Ruiheng Zhao.</p>
+            </div>
+		</div>
+
+        <!-- "Page" to show when logged in -->
+		<div  id="loggedin">
+            <div id="menubar">
+                <div id="showplaylist">
+                    <p>PLAYLISTS</p>
+                </div>
+
+                <div id="change_scheme">
+                    <img src="img/Change%20Scheme.png">
+                </div>
+            </div>
+
+            <div id="main">
+                <ul id="playlists">
+                    <li>
+                        <div class="playlist_cover">
+                            <img src="img/add.png">
+                        </div>
+
+                        <div class="playlistName">
+                            <span>New Playlist</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul id="tracks">
+                    <div id="playlists_info">
+                        <div id="coverpage"></div>
+
+                        <div id="playlists_detail">
+                            <div>PLAYLIST</div>
+                            <div id="playlists_name"></div>
+
+                            <div class="rateList">
+                                <span>Rates:</span>
+                                <button class="alltracks">Full Tracklist</button>
+
+                                <img src="img/star2.png" class="level1">
+                                <img src="img/star2.png" class="level2">
+                                <img src="img/star2.png" class="level3">
+                                <img src="img/star2.png" class="level4">
+                                <img src="img/star2.png" class="level5">
+                            </div>
+
+                            <div class="tagList">
+                                <span>Tags: &nbsp</span>
+                                <button class="alltracks">Full Tracklist</button>
+                                <button class="alltags">All</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rateList">
+                        <span>Rates:</span>
+                        <button class="alltracks">Full Tracklist</button>
+
+                        <img src="img/star2.png" class="level1">
+                        <img src="img/star2.png" class="level2">
+                        <img src="img/star2.png" class="level3">
+                        <img src="img/star2.png" class="level4">
+                        <img src="img/star2.png" class="level5">
+                    </div>
+
+                    <div class="tagList">
+                        <span>Tags: &nbsp</span>
+                        <button class="alltracks">Full Tracklist</button>
+                        <button class="alltags">All</button>
+                    </div>
+
+                    <div id="inputDiv"></div>
+
+                    <div id="title">Song Name: <span>Rates:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+                </ul>
+
+                <template id="list_item">
+                    <div class="key_val_row">
+                        <div class="key"></div>
+                        <div class="value"></div>
+                        <!-- <button class="btn">-</button> -->
+                    </div>
+                </template>
+
+                <template id="list_input">
+                    <div id="input_row" class="key_val_row">
+                        <span style="font-weight: bold">Add Tag/Rates:</span>
+                        <input type="text" class="key" value="Song Name">
+                        <input type="text" class="value" value="Tag Name/ Rate Number">
+                        <button id="addItemBtn" class="addTag">+</button>
+                        <div class="error"></div>
+                    </div>
+                </template>
+
+            </div>
+		</div>
+	</body>
+</html>

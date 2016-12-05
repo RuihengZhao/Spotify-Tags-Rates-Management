@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+
+body{
+    text-align: center;
+}
+
+#header{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px #d9dadc;
+}
+
+#header img {
+    width: 200px;
+    height: 60px;
+}
+
+#start{
+    margin: 30px auto;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.tag{
+    background-color: #121314;
+    border: solid 2px #4CAF50;
+    color: #c9cacf;
+    padding: 1px 13px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.tag:hover{
+    background-color: #4CAF50;
+}
+
+.tag span:hover{
+    font-weight: 900;
+}
+
+.searchTag{
+    background-color: #121314;
+    border: solid 2px #4CAF50;
+    color: #c9cacf;
+    padding: 1px 13px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.searchTag:hover{
+    background-color: #4CAF50;
+}
+
+.searchTag span:hover{
+    font-weight: 900;
+}
+
+.alltags{
+    background-color: #121314;
+    border: solid 2px #4CAF50;
+    color: #c9cacf;
+    padding: 1px 13px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.alltags:hover{
+    background-color: #4CAF50;
+}
+
+.addTag{
+    background-color: #4CAF50;
+    border: none;
+    color: #c9cacf;
+    padding: 3px 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.alltracks{
+    background-color: #4CAF50;
+    border: none;
+    color: #c9cacf;
+    padding: 3px 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#footer{
+    width: 350px;
+    margin: 0px auto;
+    padding-top: 20px;
+    border-top: solid 1px #d9dadc;
+}
+
+#footer p{
+    color: #d9dadc;
+}
+
+#menubar{
+    height: 45px;
+    width: 950px;
+    margin: 0px auto;
+    text-align: left;
+    border-bottom: solid 1px #222326;
+}
+
+#menubar #showplaylist{
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: solid 2px #84bd00;
+    display: inline-block;
+}
+
+#change_scheme{
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    display: inline;
+    float: right;
+}
+
+#menubar img{
+    width: 25px;
+    height: 20px;
+}
+
+#main{
+    width: 950px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#playlists{
+    display: inline-block;
+    width: 300px;
+    list-style: none;
+    text-align: left;
+    float: left;
+}
+
+#playlists li{
+    display: block;
+    height: 70px;
+    margin-top: 3px;
+    background: #1c1c1f;
+}
+
+#playlists li:hover{
+    background: #222326;
+}
+
+#playlists li img{
+    width: 50px;
+    height: 50px;
+}
+
+#playlists li span{
+    height: 50px;
+    line-height: 50px;
+}
+
+.playlist_cover{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.playlistName{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#tracks{
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    float: left;
+}
+
+#playlists_info{
+    height: 215px;
+    padding: 25px;
+}
+
+#coverpage {
+    width: 215px;
+    height: 215px;
+    display: inline-block;
+    float: left;
+}
+
+#coverpage img{
+    width: 215px;
+    height: 215px;
+}
+
+#playlists_detail{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#playlists_name{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.tagList{
+    border-bottom: 1px solid #222326;
+    width: 360px;
+    padding-top: 15px;
+}
+
+.rateList{
+    border-bottom: 1px solid #222326;
+    width: 360px;
+    height: 35px;
+    padding-top: 15px;
+}
+
+.rateList img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#tracks li{
+    width: 600px;
+    height: 35px;
+    margin-left: 25px;
+    padding-top: 15px;
+    border-top: solid 1px #222326;
+}
+
+#tracks li img{
+    float: right;
+    width: 15px;
+    height: 15px;
+}
+
+#title{
+    width: 600px;
+    height: 35px;
+    margin-left: 25px;
+    padding-top: 15px;
+//border-top: solid 1px #222326;
+}
+
+#title span{
+    float: right;
+}
+
+#login {
+    display: none;
+}
+
+#loggedin {
+    color: #c9cacf;
+    width: 100%;
+    display: none;
+}
+
+.key_val_row {
+    border-bottom: 1px dashed #222326;
+    width: 600px;
+    height: 35px;
+    margin-left: 25px;
+}
+
+.key{
+    width: 210px;
+    margin-left: 10px;
+}
+
+.value{
+    width: 210px;
+    margin-left: 10px;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+/* Compatible with iPhone6. */
+@media screen and (min-width: 360px) and (max-width: 685px){
+    #menubar{
+        width: 350px;
+    }
+
+    #main{
+        width: 350px;
+    }
+
+    #playlists{
+        width: 350px;
+    }
+
+    #playlists_info{
+        height: 150px;
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #coverpage{
+        width: 150px;
+        height: 150px;
+    }
+
+    #coverpage img{
+        width: 150px;
+        height: 150px;
+    }
+
+    #playlists_detail{
+        margin-left: 15px;
+    }
+
+    .rateList{
+        width: 350px;
+        padding-top: 0px;
+    }
+
+    .tagList{
+        width: 350px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #title{
+        width: 350px;
+        margin-left: 0px;
+    }
+
+    .key_val_row{
+        width: 350px;
+        height: 90px;
+        margin-left: 0px;
+    }
+
+    .key{
+        width: 295px;
+        margin-left: 0px;
+        margin-top:  10px;
+    }
+
+    .value{
+        width: 295px;
+        margin-left: 0px;
+        margin-top:  10px;
+    }
+
+    #tracks li{
+        width: 350px;
+        margin-left: 0px;
+    }
+
+    .tag{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+}

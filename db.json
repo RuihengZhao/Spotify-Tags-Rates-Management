@@ -1,0 +1,78 @@
+{
+  "tag": [
+    {
+      "name": "one",
+      "playlist": "CS349",
+      "tracks": [
+        "Aqualung",
+        "Your Time Will Come",
+        "Circle of Light",
+        "Digging for Some Words",
+        "Wake Up and Rise"
+      ],
+      "id": 1
+    },
+    {
+      "name": "two",
+      "playlist": "CS349",
+      "tracks": [
+        "Great Heart",
+        "Locomotive Breath",
+        "Rebel",
+        "Wake Up and Rise",
+        "Your Time Will Come"
+      ],
+      "id": 2
+    },
+    {
+      "name": "three",
+      "playlist": "CS349",
+      "tracks": [
+        "Mama is a Revolutionary",
+        "Why Don’t you Do Right",
+        "Your Time Will Come",
+        "Wind Up"
+      ],
+      "id": 3
+    }
+  ],
+  "rate": [
+    {
+      "level": 1,
+      "tracks": [],
+      "id": 1
+    },
+    {
+      "level": 2,
+      "tracks": [],
+      "id": 2
+    },
+    {
+      "level": 3,
+      "tracks": [],
+      "id": 3
+    },
+    {
+      "level": 4,
+      "tracks": [
+        "Aqualung",
+        "Digging for Some Words"
+      ],
+      "id": 4
+    },
+    {
+      "level": 5,
+      "tracks": [
+        "Your Time Will Come"
+      ],
+      "id": 5
+    }
+  ],
+  "scheme": [
+    {
+      "current_scheme": "dark",
+      "id": 1
+    }
+  ]
+}
+
