@@ -13,5 +13,3 @@
 10. Compatiable with Chrom and iPhone6(tested by chrome developer tool).
 11. Implement a responsive design so that your interface also looks good on a tablet or if the phone is rotated.
 12. Implement user-selectable skins (by click on the skin icon on the top-right). Will automatically restore the user's preferences.
-
-<img src="https://cloud.githubusercontent.com/assets/10762987/26536344/fb98e366-4403-11e7-9108-e4939cb129dd.png">
