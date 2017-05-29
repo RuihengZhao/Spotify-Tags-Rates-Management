@@ -1,3 +1,5 @@
+<img src="https://cloud.githubusercontent.com/assets/10762987/26536343/fa134608-4403-11e7-8ada-22e825383972.png">
+
 ### Features:
 1. Tags and Rates are initialized as required.
 2. Can Assign tag/rate by using the "Add Tag/Rates" section. (Rate Number has to be 1/2/3/4/5)
@@ -12,5 +14,4 @@
 11. Implement a responsive design so that your interface also looks good on a tablet or if the phone is rotated.
 12. Implement user-selectable skins (by click on the skin icon on the top-right). Will automatically restore the user's preferences.
 
-<img src="https://cloud.githubusercontent.com/assets/10762987/26536343/fa134608-4403-11e7-8ada-22e825383972.png">
 <img src="https://cloud.githubusercontent.com/assets/10762987/26536344/fb98e366-4403-11e7-9108-e4939cb129dd.png">
